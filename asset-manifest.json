@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/rogue/static/css/main.2f540574.css",
-    "main.js": "/rogue/static/js/main.ab290e47.js",
+    "main.js": "/rogue/static/js/main.ae11b44f.js",
     "static/media/ShigotoMemogaki-Regular-1-01.ttf": "/rogue/static/media/ShigotoMemogaki-Regular-1-01.754beeedc8673d69b033.ttf",
     "static/media/BG_Cherry.png": "/rogue/static/media/BG_Cherry.1d94f9f8bc1ab5d813ea.png",
     "index.html": "/rogue/index.html",
     "main.2f540574.css.map": "/rogue/static/css/main.2f540574.css.map",
-    "main.ab290e47.js.map": "/rogue/static/js/main.ab290e47.js.map"
+    "main.ae11b44f.js.map": "/rogue/static/js/main.ae11b44f.js.map"
   },
   "entrypoints": [
     "static/css/main.2f540574.css",
-    "static/js/main.ab290e47.js"
+    "static/js/main.ae11b44f.js"
   ]
 }

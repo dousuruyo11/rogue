@@ -1,0 +1,26 @@
+/**全ページにカスタムフォントを適用*/
+@font-face {
+  font-family: "CFont1";
+  src: url(./img//ShigotoMemogaki-Regular-1-01.ttf);
+}
+
+body {
+  margin: 0;
+  font-family: "CFont1";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.MuiTableCell-root {
+  font-size: 20px !important;
+  font-family: "CFont1" !important;
+}
+
+.MuiTypography-root {
+  font-family: "CFont1" !important;
+}
+
+.MuiButtonBase-root {
+  font-size: 25px !important;
+  font-family: "CFont1" !important;
+}

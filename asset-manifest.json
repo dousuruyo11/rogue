@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/static/css/main.2c690a85.css",
+    "main.js": "/static/js/main.14e802dc.js",
+    "static/media/ShigotoMemogaki-Regular-1-01.ttf": "/static/media/ShigotoMemogaki-Regular-1-01.754beeedc8673d69b033.ttf",
+    "static/media/BG_Cherry.png": "/static/media/BG_Cherry.1d94f9f8bc1ab5d813ea.png",
+    "index.html": "/index.html",
+    "main.2c690a85.css.map": "/static/css/main.2c690a85.css.map",
+    "main.14e802dc.js.map": "/static/js/main.14e802dc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2c690a85.css",
+    "static/js/main.14e802dc.js"
+  ]
+}

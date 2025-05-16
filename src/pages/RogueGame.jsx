@@ -88,7 +88,11 @@ function RogueGame() {
   const initGame = () => {
     GameData.generateMapData(setMapData, setPlayerPosition, setFloorPosition, countFloor);
     setPlayerData(GameData.getPlayerData());
-    setPlayerData({ ...playerData, at: playerData.at + playerWeapon.power, df: playerData.df + playerArmor.power });
+    setPlayerData({
+      ...playerData,
+      at: playerData.at + playerWeapon.power,
+      df: playerData.df + playerArmor.power,
+    });
   };
 
   /**
@@ -411,7 +415,11 @@ function RogueGame() {
           <Grid item xs={2}>
             <BattleEffect
               color="error"
-              style={{ transition: "0.1s", opacity: isBattleEffect ? 1 : 0, fontSize: "3em" }}
+              style={{
+                transition: "0.1s",
+                opacity: isBattleEffect ? 1 : 0,
+                fontSize: "3em",
+              }}
               className="base-right"
             ></BattleEffect>
           </Grid>
@@ -443,7 +451,7 @@ function RogueGame() {
               ))}
             </Box>
           </Grid>
-          <Grid item xs={2}>
+          <Grid item xs={5} md={2}>
             <Box className="base-right">
               <Grid container>
                 <Grid item xs={4}></Grid>
@@ -492,7 +500,7 @@ function RogueGame() {
               </Grid>
             </Box>
           </Grid>
-          <Grid item xs={3}></Grid>
+          <Grid item xs={0} md={3}></Grid>
 
           <Grid item xs={1}></Grid>
           <Grid item xs={3} md={2}>
@@ -542,7 +550,7 @@ function RogueGame() {
             </Box>
           </Grid>
 
-          <Grid item xs={8}>
+          <Grid item xs={12} md={8}>
             <Box
               sx={{
                 border: 1,
